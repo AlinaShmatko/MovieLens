@@ -1,11 +1,13 @@
-## 🎬 MovieLens Recommender System   
+## 🎬 MovieLens Recommender System 
+
 A production-style movie recommendation system built on the MovieLens 20M dataset.   
 This project explores multiple recommendation approaches:   
 Baseline recommendation models    
 Matrix Factorization (SVD)    
 Content-Based Filtering   
 Hybrid Recommender Systems   
-The goal of the project was not only to improve recommendation quality, but also to learn how to structure a real-world machine learning project using modular architecture and reproducible evaluation pipelines.    
+The goal of the project was not only to improve recommendation quality, but also to learn how to structure a real-world machine learning project using modular architecture and reproducible evaluation pipelines.  
+
 ---
 ##  📌 Dataset   
 Dataset: MovieLens 20M Dataset   

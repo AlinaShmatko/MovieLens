@@ -9,7 +9,7 @@ Hybrid Recommender Systems
 The goal of the project was not only to improve recommendation quality, but also to learn how to structure a real-world machine learning project using modular architecture and reproducible evaluation pipelines.  
 
 ---
-##  📌 Dataset   
+##   Dataset   
 Dataset: MovieLens 20M Dataset   
 The dataset contains:   
 - 20 million movie ratings   
@@ -22,7 +22,7 @@ Main files used:
 - movies.csv
 - tags.csv
 ----
-##  🚀 Project Goals
+##   Project Goals
 The project focuses on:   
 - Building collaborative filtering models from scratch   
 - Comparing recommendation approaches using RMSE   
@@ -31,12 +31,12 @@ The project focuses on:
 - Combining collaborative and content-based methods 
 - Exploring hybrid recommendation strategies
 ---
-## ⚙️ Requirements
+##  Requirements
 
 - Python 3.10  
   (Required due to compatibility constraints with the `scikit-surprise` library, which relies on compiled extensions that are not fully supported on Python 3.11+ and 3.12+.)
 ---
-## 🧠 Implemented Models
+##  Implemented Models
 1. Baseline Models       
 Implemented:
 - Global Mean
@@ -79,7 +79,7 @@ Prediction=α⋅SVD+(1−α)⋅ContentSimilarity
 $$$
 This approach improves robustness and partially mitigates cold-start problems.
 ---
-## 📊 Evaluation
+##  Evaluation
 Evaluation metric:   
 - RMSE (Root Mean Squared Error)  
 
@@ -103,7 +103,7 @@ Time-based train/test split was used to prevent data leakage and better simulate
 - Content-based similarity improved semantic coherence of recommendations even when RMSE gains were limited.
 - Better recommendation quality does not always correspond to lower RMSE.
 ---
-## 🏗️ Project Architecture
+##  Project Architecture
 The project follows a modular ML engineering structure:
 - src/data/ → data loading and preprocessing
 - src/models/ → recommender models
@@ -150,13 +150,13 @@ MovieLens/
 ├── README.md
 ```
 ---
-## ⚙️ Installation
+##  Installation
 Install dependencies:
 ```
 pip install -r requirements.txt
 ```
 ### Dataset Setup:
-## 📥 Dataset Setup
+##  Dataset Setup
 
 This project uses the MovieLens 20M dataset.
 Download the dataset from:
@@ -173,7 +173,7 @@ Required files:
 python main.py
 ```
 ---
-## 🔮 Future Improvements
+##  Future Improvements
 Potential future improvements:
 - implicit feedback modeling
 - deep learning recommenders
